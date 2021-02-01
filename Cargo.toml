@@ -1,0 +1,13 @@
+[package]
+name = "rustyrattler"
+version = "0.1.0"
+authors = ["bigf00t <jeremydsnell@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+array2d = "0.2.1"
+nalgebra = "*" # replace * by the latest version of the crate.
+itertools = "0.10.0"
+time = "*"
